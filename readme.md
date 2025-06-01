@@ -25,7 +25,10 @@ cd seed-to-array
 npm install    # installs bip39, ed25519-hd-key, @solana/web3.js, ts‑node
 
 # 3 · Insert your mnemonic
-nano index.ts  # replace the placeholder text with *your* 12‑word phrase
+#    macOS / Linux:
+nano index.ts        # opens Nano – replace the placeholder with *your* 12‑word phrase
+#    Windows PowerShell / CMD:
+notepad index.ts     # or use VS Code →  code index.ts
 
 # 4 · Run it
 npx ts-node index.ts
