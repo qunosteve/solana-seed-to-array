@@ -19,7 +19,7 @@ That’s it. **No internet calls, no uploads, no telemetry.** Everything happen
 ```bash
 # 1 · Download
 git clone https://github.com/qunosteve/solana-seed-to-array
-cd seed-to-array
+cd solana-seed-to-array
 
 # 2 · Install deps
 npm install    # installs bip39, ed25519-hd-key, @solana/web3.js, ts‑node
