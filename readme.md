@@ -18,7 +18,7 @@ That’s it. **No internet calls, no uploads, no telemetry.** Everything happen
 
 ```bash
 # 1 · Download
-git clone https://github.com/yourname/seed-to-array.git
+git clone https://github.com/qunosteve/solana-seed-to-array
 cd seed-to-array
 
 # 2 · Install deps
