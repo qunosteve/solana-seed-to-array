@@ -31,6 +31,7 @@ nano getPrivateKey.ts      # opens Nano – replace the placeholder with *your* 
 notepad getPrivateKey.ts    # or use VS Code →  code index.ts
 
 # 4 · Run it
+chmod +x node_modules/.bin/ts-node # for mac users
 npx ts-node getPrivateKey.ts
 ```
 
